@@ -15,4 +15,6 @@ int main() {
     float ci = p * pow((1 + r / 100), t) - p;
 
     printf("Compound Interest: %.2f", ci);
+
+    return 0;
 }
