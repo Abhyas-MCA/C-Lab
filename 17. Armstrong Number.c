@@ -16,8 +16,6 @@ int main()
     sum += d * d * d;
   }
 
-  printf("Sum: %d\n", sum);
-
   if (sum == num)
     printf("%d is Armstrong number", num);
   else
