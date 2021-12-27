@@ -22,6 +22,7 @@ int main()
 
   bubbleSort(arr);
 
+  printf("Sorted Array: ");
   for (i = 0; i < 10; i++)
     printf("%d ", arr[i]);
 }
