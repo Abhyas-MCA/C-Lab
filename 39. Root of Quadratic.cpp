@@ -22,6 +22,7 @@ int main()
   else
   {
     printf("First Root: %.2f%.2+fi", -b * 1.0 / (2 * a), sqrt(-D) / (2 * a));
+    printf("Second Root: %.2f%.2+fi", -b * 1.0 / (2 * a), -sqrt(-D) / (2 * a));
   }
   return 0;
 }
